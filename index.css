@@ -1,0 +1,26 @@
+@font-face {
+  font-family: arcadefont;
+  src: url(/arcade.ttf);
+}
+body{
+background-image: url(/spacetime1.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+margin: 0;
+display: flex;
+justify-content: center;
+}
+
+
+
+.clock{
+font-family:arcadefont;
+font-size: 5rem;
+font-weight: bold;
+text-shadow: 3px 3px 5px rgb(3, 173, 60);
+color: rgb(202, 195, 191);
+margin-top: 230px;
+margin-left: 50px;
+}
